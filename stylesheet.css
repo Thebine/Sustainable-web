@@ -17,6 +17,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.logo{
+    size: 100px;
+}
+
 header{
     background-color: #1D230F;
     position: top;
@@ -25,8 +29,16 @@ header{
     width: 100%;
     height: 50px;
     text-align: center;
+    display: flex;
     font-size: 15px;
     color: #C69D72;
+}
+
+img{
+    max-width: 200%;
+    height: auto;
+    position: fixed;
+    bottom: -200px;
 }
 
 button{
@@ -46,11 +58,6 @@ button:hover{
     background-color: #57642C;
 }
 
-img{
-    max-width: 80%;
-    height: auto;
-}
-
 .animation1{
     animation: myanimation 5s;
     animation-fill-mode: forwards;
@@ -65,6 +72,32 @@ img{
     animation: myanimation3 5s;
     animation-fill-mode: forwards;
 }
+
+.text{
+    width: 100%;
+        top: 20%;
+        position: absolute;
+        left: 0%;
+        border-bottom: 2px solid white;
+        overflow: hidden;
+        animation: animate 10s linear forwards;
+        color: #F1F1F0;
+}
+
+/*animation for text*/
+
+@keyframes animate {
+    0% {
+        width: 100%;
+        height: 0px;
+    }
+    100% {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+/*animtion for knapper*/
 
 @keyframes myanimation {
     0%{
@@ -105,4 +138,17 @@ footer{
     text-align: center;
     font-size: 15px;
     color: #C69D72;
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+
+body{
+    background-color: aqua;
+
+}
+
+
+
 }
