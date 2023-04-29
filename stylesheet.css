@@ -25,6 +25,8 @@ header{
     padding: 15px;
 }
 
+
+
 body{
     background-color: #0B0707; 
     display: flex;
@@ -41,6 +43,8 @@ body{
     position: fixed;
     bottom: -200px;
 }
+
+/*knapper*/
 
 button{
     width: 100px;
@@ -73,32 +77,6 @@ button:hover{
 .animation3{
     animation: myanimation3 3s;
     animation-fill-mode: forwards;
-}
-
-/*
-.text{
-    width: 100%;
-        top: 20%;
-        position: absolute;
-        left: 0%;
-        border-bottom: 2px solid white;
-        overflow: hidden;
-        animation: animate 3s linear forwards reverse;
-        color: #F1F1F0;
-}
-*/
-
-/*animation for text*/
-
-@keyframes animate {
-    0% {
-        width: 100%;
-        height: 0px;
-    }
-    100% {
-        width: 100%;
-        height: 50%;
-    }
 }
 
 /*animation for knapper*/
