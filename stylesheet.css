@@ -111,11 +111,69 @@ footer{
 
 
 
+/*Media queries*/
+
 @media only screen and (min-width: 1920px) {
 
-body{
-    background-color: aqua;
+header{
+    height: 120px;
+    margin-bottom: 10.5%;
+}
 
+.globe{
+    width: 70%;
+    position: fixed;
+    bottom: -500px;
+
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.logo{
+    height: 65px;
+    width: auto;
+    margin-right: 0px;
+    padding: 25px;
+}
+
+/*knapper*/
+
+button{
+    width: 200px;
+    height: 100px;
+    background-color: #708238;
+    border-radius: 50px;
+    border: solid transparent;
+    color: #C69D72;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+    row-gap: 10px;
+    z-index: 9;
+}
+
+@keyframes myanimation1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-175px); }
+}
+
+@keyframes myanimation2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-205px); }
+}
+
+@keyframes myanimation3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-390px); }
+}
+
+
+footer{
+    height: 60px;
+    font-size: 25px;
 }
 
 }
