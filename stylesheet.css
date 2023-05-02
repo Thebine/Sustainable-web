@@ -6,7 +6,7 @@
 #57642C - medium grøn
 #3D441F - mørk grøn
 #F1F1F0 - hvid (text)
-*/ 
+*/
 
 header{
     background-color: #1D230F;
@@ -109,7 +109,13 @@ footer{
     color: #C69D72;
 }
 
+a{
+    color: #57642C;
+}
 
+a:active{
+    color: #C69D72;
+}
 
 /*Media queries*/
 
@@ -162,12 +168,12 @@ button{
 
 @keyframes myanimation2 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-205px); }
+    100% { transform: translateY(-280px); }
 }
 
 @keyframes myanimation3 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-390px); }
+    100% { transform: translateY(-370px); }
 }
 
 
