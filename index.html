@@ -9,24 +9,21 @@
     <title>My Sustainable Website</title>
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TCQ5FN47F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7TCQ5FN47F');
-</script>
-
 <body>
     <header>
-        <img src="Vector.png" class="logo">
-        <h1>Golden web</h1> 
+        <img src="Vector.png" class="logo" alt="logo">
+        <h1>The Golden Web</h1> 
     </header>
 
-    <img src="Component 2.png" class="globe">
+    <img src="Component2.png" class="globe" alt="Jorden med grønne cirkler omkring">
 
     <button id="WHAT" onclick="movetoside()">WHAT</button>
+    <div id="whattext">Så hvad kan man gøre som multimediedesigner for at bidrage til bæredygtigt webudvikling?
+Vi kan forholde os til Bjarne’s tre vigtigeste steps, fjerne det unødvendige, optimere indhold og vælge grøn hosting. - Og generelt tænke mere organiseret og minimalistisk, så kan vi også bidrage til minimeret menneskelig kognitiv overstimulering på nettet. 
+Så ikke nok med at man kan benytte de værktøjer man har til rådighed til komprimering af billeder, video og selve kodet, så kræver det også en anden tilgang til hvordan vi laver sine mockups og organiserer indholdet.
+Her kunne man bla. kigge på målgruppen og læsemodellerne der passer til. Man kan koge indholdet ned og som Bjarne også snakkede om i interviewet, finde andre formater der ikke går på kompromis med kvaliteten. 
+Begrænsninger er ikke nødvendigvis en dårlig ting, det kan faktisk skabe en masse muligheder og måske også en sundere måde at forbruge nettet på.</div>
+
     <button id="HOW" onclick="movetoside()">HOW</button>
     <button id="WHY" onclick="movetoside()">WHY</button>
 
@@ -35,7 +32,16 @@
         <a href="https://www.instagram.com/_falkee_/">Skriv til mig på Instagram</a>
     </footer>
     
+    <!--Javascript og google analytics link-->
     <script src="javascript.js"></script>
-</body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7TCQ5FN47F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-7TCQ5FN47F');
+</script>
+
+</body>
 </html>

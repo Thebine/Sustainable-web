@@ -16,7 +16,6 @@ header{
     display: flex;
     font-size: 9px;
     color: #C69D72;
-    margin-bottom: 85%;
 }
 
 h1{
@@ -36,7 +35,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;
+    margin: 5px;
 }
 
 .globe{
@@ -47,6 +46,13 @@ body{
 }
 
 /*knapper*/
+
+#whattext{
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    display: none;
+}
 
 button{
     width: 100px;
@@ -60,6 +66,9 @@ button{
     cursor: pointer;
     row-gap: 10px;
     z-index: 9;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 button:hover{
@@ -85,17 +94,17 @@ button:hover{
 
 @keyframes myanimation1 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-290px); }
+    100% { transform: translateY(0px); }
 }
 
 @keyframes myanimation2 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-340px); }
+    100% { transform: translateY(-335px); }
 }
 
 @keyframes myanimation3 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-390px); }
+    100% { transform: translateY(-380px); }
 }
 
 footer{
@@ -163,17 +172,17 @@ button{
 
 @keyframes myanimation1 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-175px); }
+    100% { transform: translateY(-180px); }
 }
 
 @keyframes myanimation2 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-280px); }
+    100% { transform: translateY(-330px); }
 }
 
 @keyframes myanimation3 {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-370px); }
+    100% { transform: translateY(-430px); }
 }
 
 
